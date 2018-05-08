@@ -1,0 +1,48 @@
+body{
+    font: 'Open Sans', sans-serif;
+    color: #5e5b64;
+    text-align: center;
+}
+
+a:hover{
+        text-decoration: none;}
+
+nav{
+    display: inline-block;
+    margin: 1px;
+    background-color: #5597b4;
+    box-shadow: 0 1px 1px #ccc;
+    border-radius: 2px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1rem;
+    color: #fff !important;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+nav.home .home, nav.projects .projects, nav.services .services, nav.contact .contact{
+   background-color: #e35885;
+
+}
+
+
+p{
+    font-weight: bold;
+    color: #7d9098;
+}
+
+p b {
+    color: #ffffff;
+    display: inline-block;
+    padding: 1rem;
+    background-color: #c4d7e0;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+
